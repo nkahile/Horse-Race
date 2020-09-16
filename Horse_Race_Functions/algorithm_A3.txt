@@ -1,0 +1,42 @@
+Goals;
+-Simulate a horse race and have 1 horse win the race.
+
+Input;
+-Need a random integer seed value 
+
+Output;
+-Output should simulate the horse race in the form of a string value and it also should print
+all the tracks everytime a horse either makes a move or stops.
+
+	"""
+	Please enter a random seed value: 700
+
+	.........0.....
+	..........1....
+	............2..
+	..............3
+	........4......
+
+
+	.........0.....
+	..........1....
+	.............2.
+	...............
+	........4......
+
+	Horse 3 wins!
+
+	""
+
+Steps;
+1-get a random seed from the user 
+2-setup horse position array which will contain 5 horses
+3-print the count of postions
+4-print the track for each horse, containig a count of fiften dots "."
+5-determine if the horse move
+6-increase horse postion by 1
+7-loop step 4 and step 5, five times
+8-check if the horse reaches 15th postion
+
+
+
